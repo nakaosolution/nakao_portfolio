@@ -1,0 +1,42 @@
+
+    <form action="#">
+        <table id="math-table" cellspacing=4>
+            <tr>
+                <th>長方形</th>
+                <td>幅<input type="number" id="math-1" onkeyup="func(1);" onclick="func(1);">×　高<input type="number" id="math-2" onkeyup="func(1);" onclick="func(1);"></td>
+                <td><button onclick="func(1);">=</button></td>
+                <td id="rectangular">??</td>
+            </tr>
+            <tr>
+                <th>正方形</th>
+                <td>幅<input type="number" id="math-3" onkeyup="func(2);" onclick="func(2);"></td>
+                <td><button onclick="func(2);">=</button></td>
+                <td id="square">??</td>
+            </tr>
+            <tr>
+                <th>円形</th>
+                <td>半径<input type="number" id="math-4" onkeyup="func(3);" onclick="func(3);"></td>
+                <td><button onclick="func(3);">=</button></td>
+                <td id="circle">??</td>
+            </tr>
+            <tr>
+                <th>三角形</th>
+                <td>底辺<input type="number" id="math-5" onkeyup="func(4);" onclick="func(4);">×高<input type="number" id="math-6" onkeyup="func(4);" onclick="func(4);">÷２</td>
+                <td><button onclick="func(4);">=</button></td>
+                <td id="triangle">??</td>
+            </tr>
+            <tr>
+                <th>台形</th>
+                <td>(上底<input type="number" id="math-7" onkeyup="func(5);" onclick="func(5);">＋下底<input type="number" id="math-8" onkeyup="func(5);" onclick="func(5);">)×高<input type="number" id="math-9" onkeyup="func(5);" onclick="func(5);">÷２</td>
+                <td><button onclick="func(5);">=</button></td>
+                <td id="trapezoid">??</td>
+            </tr>
+            <tr>
+                <th>ひし形</th>
+                <td>対角線<input type="number" id="math-10" onkeyup="func(6);" onclick="func(6);">×対角線<input type="number" id="math-11" onkeyup="func(6);" onclick="func(6);">÷２</td>
+                <td><button onclick="func(6);">=</button></td>
+                <td id="rhombus">??</td>
+            </tr>
+        </table>
+    <input type="reset" id="clear" value="リセット" >
+    </form>

@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/*========================== 
+リセットCSS 
+============================*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*========================== 
+テーブル
+============================*/
+table#math-table {
+    border: 2px solid black;
+    width: 90%;
+    margin: 100px auto 0px auto;
+    border-collapse: collapse;
+}
+
+table#math-table th {
+    width: 100px;
+    text-align: center;
+    background-color: rgba(255, 201, 210, 0.952);
+}
+
+table#math-table th,
+table#math-table td {
+    border: 2px solid black;
+}
+
+table#math-table td:nth-of-type(2),
+table#math-table td:nth-of-type(3) {
+    text-align: center;
+}
+
+table#math-table button{
+    width: 45px;
+}
+
+table#math-table input[type="number"] {
+    width: 60px;
+}
+
+input#clear {
+    margin: 0 auto;
+    width: 30%;
+    display: block;
+}
